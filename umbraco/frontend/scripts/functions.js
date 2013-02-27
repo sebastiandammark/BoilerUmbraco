@@ -15,6 +15,6 @@ var app = app = {};
 	
 	/* Initialize.
 	--------------------------------------------------------------------------------*/
-	$(document).ready(app.events.ready);
-	$(window).load(app.events.load);
+	$(document).ready(app.events.ready); // Fires when DOM is ready
+	$(window).load(app.events.load); // Fires when images are loaded
 })(jQuery);
