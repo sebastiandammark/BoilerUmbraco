@@ -2,10 +2,10 @@
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "../umbraco/frontend/styles"
-sass_dir = "sass"
-images_dir = "../umbraco/frontend/images"
-javascripts_dir = "../umbraco/frontend/scripts"
+css_dir = "umbraco/frontend/styles"
+sass_dir = "app/sass"
+images_dir = "umbraco/frontend/images"
+javascripts_dir = "umbraco/frontend/scripts"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
@@ -14,7 +14,7 @@ javascripts_dir = "../umbraco/frontend/scripts"
 relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = true
+line_comments = true
 
 
 # If you prefer the indented syntax, you might want to regenerate this
